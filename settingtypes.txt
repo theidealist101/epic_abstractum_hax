@@ -1,0 +1,2 @@
+#Mirror placing and breaking in Z-axis
+mirror_z (Mirror in Z-axis) bool false
