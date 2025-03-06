@@ -60,7 +60,7 @@ minetest.register_chatcommand("walls", {
 
 --Replace command: sets node to replace
 minetest.register_chatcommand("replace", {
-    params = "<node>",
+    params = "[<node>]",
     description = "Set fill commands to only replace certain nodes",
     func = function (param)
         if not param or param == "" then replacing = nil else replacing = param end
